@@ -1,0 +1,257 @@
+body{
+    background: #F3F5FC;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 84px;
+    margin-top: 40px;  
+}
+
+main{
+    display: flex;
+    margin-left: 180px;
+    margin-bottom: 50px;
+}
+
+section textarea{
+ font-family: 'Inter';
+}
+
+.input-texto,
+.texto {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.input-texto{
+    position: absolute;
+    display: inline-block;
+    width: 577px;
+    height: 48px;
+    margin-left: 61px;
+    margin-top: 168px;
+    background: #F3F5FC;
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871 
+}
+
+::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871 ; /* Cambia el color del texto del placeholder a rojo */
+}
+
+section img{
+    position: absolute;
+    bottom: 161px;
+    left: 250px;
+}
+
+p{
+    font-family: 'Inter';
+} 
+section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    
+    text-align: center;
+}
+
+.advertencia{
+    position: absolute;
+    text-align: center;
+    bottom: 159px;
+    left: 271px;
+    width: 205px;
+    height: 18px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    
+    
+    /* Gray/gray-400 */
+    
+    color: #495057;
+    
+    opacity: 0.8;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.encriptar{
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 293px;
+    height: 67px;
+
+    position: absolute;
+    margin-left: 61px;
+    bottom: 72px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+}
+
+.desencriptar{
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 293px;
+    height: 67px;
+
+    position: absolute;
+    margin-left: 400px;
+    margin-right: 80px;
+    bottom: 72px;
+
+    background: #D8DFE8;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}   
+
+
+.rectangulo{
+    position: absolute;
+    height: 629px;
+    width: 350px;
+    bottom: 34px;
+    left: 971px
+}
+
+.texto{
+    position: absolute;
+    width: 265px;
+    height: 433px;
+    top: 68px;
+    left: 1010px;
+    bottom: 171px;   /*676 el alto de la pag*/
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    background-image: url(Imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+}
+
+.mensaje-1{
+    display: inline-block;
+    vertical-align: top;
+    margin: 4.5%;
+    padding: 30px 20px;
+    text-align: center;
+    color: #343A40;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    
+    position: absolute;
+    left: 925px;
+    bottom: 119px;
+    
+}
+
+.mensaje-2{
+    display: inline-block;
+    vertical-align: top;
+    margin: 4.5%;
+    padding: 30px 20px;
+    text-align: center;
+    color: #343A40;
+    font-style: normal;
+    font-size: 15px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+   
+    position: absolute;
+    left: 925px;
+    bottom: 77px;
+    
+}
+
+.copiar{
+    position: absolute;
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 293px;
+    height: 67px;
+    left: 1173px;
+    bottom: 72px;
+    background: white;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    margin-left: -173px;
+}
